@@ -1,0 +1,1031 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 595.97 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 4070 Laptop GPU
+
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/backgrounds/battle_background_maze_gate.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _build (res://scripts/battle_controller.gd:103)
+       [2] _ready (res://scripts/battle_controller.gd:44)
+       [3] show_battle (res://scripts/main.gd:66)
+       [4] _on_node_selected (res://scripts/main.gd:91)
+       [5] <anonymous lambda> (res://scripts/map_controller.gd:59)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/protagonist_necromancer.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:209)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _ready (res://scripts/battle_controller.gd:46)
+       [5] show_battle (res://scripts/main.gd:66)
+       [6] _on_node_selected (res://scripts/main.gd:91)
+       [7] <anonymous lambda> (res://scripts/map_controller.gd:59)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/monster_01_skeleton_soldier.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:214)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _ready (res://scripts/battle_controller.gd:46)
+       [5] show_battle (res://scripts/main.gd:66)
+       [6] _on_node_selected (res://scripts/main.gd:91)
+       [7] <anonymous lambda> (res://scripts/map_controller.gd:59)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/protagonist_necromancer.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:209)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _play_card (res://scripts/battle_controller.gd:265)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:245)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/monster_01_skeleton_soldier.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:214)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _play_card (res://scripts/battle_controller.gd:265)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:245)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/protagonist_necromancer.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:209)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _play_card (res://scripts/battle_controller.gd:265)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:245)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/monster_01_skeleton_soldier.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:214)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _play_card (res://scripts/battle_controller.gd:265)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:245)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/protagonist_necromancer.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:209)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _play_card (res://scripts/battle_controller.gd:265)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:245)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/monster_01_skeleton_soldier.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:214)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _play_card (res://scripts/battle_controller.gd:265)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:245)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/protagonist_necromancer.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:209)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _select_enemy (res://scripts/battle_controller.gd:250)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:234)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/monster_01_skeleton_soldier.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:214)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _select_enemy (res://scripts/battle_controller.gd:250)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:234)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/protagonist_necromancer.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:209)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _end_player_turn (res://scripts/battle_controller.gd:375)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/monster_01_skeleton_soldier.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:214)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _end_player_turn (res://scripts/battle_controller.gd:375)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/protagonist_necromancer.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:209)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _play_card (res://scripts/battle_controller.gd:265)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:245)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/monster_01_skeleton_soldier.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:214)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _play_card (res://scripts/battle_controller.gd:265)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:245)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/protagonist_necromancer.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:209)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _play_card (res://scripts/battle_controller.gd:265)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:245)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/monster_01_skeleton_soldier.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:214)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _play_card (res://scripts/battle_controller.gd:265)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:245)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/protagonist_necromancer.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:209)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _play_card (res://scripts/battle_controller.gd:265)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:245)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/monster_01_skeleton_soldier.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:214)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _play_card (res://scripts/battle_controller.gd:265)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:245)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/protagonist_necromancer.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:209)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _end_player_turn (res://scripts/battle_controller.gd:375)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/monster_01_skeleton_soldier.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:214)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _end_player_turn (res://scripts/battle_controller.gd:375)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/protagonist_necromancer.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:209)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _play_card (res://scripts/battle_controller.gd:265)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:245)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/monster_01_skeleton_soldier.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:214)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _play_card (res://scripts/battle_controller.gd:265)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:245)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/protagonist_necromancer.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:209)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _play_card (res://scripts/battle_controller.gd:265)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:245)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/monster_01_skeleton_soldier.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:214)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _play_card (res://scripts/battle_controller.gd:265)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:245)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/protagonist_necromancer.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:209)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _end_player_turn (res://scripts/battle_controller.gd:369)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/monster_01_skeleton_soldier.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:214)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _end_player_turn (res://scripts/battle_controller.gd:369)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/backgrounds/battle_background_maze_gate.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _build (res://scripts/battle_controller.gd:103)
+       [2] _ready (res://scripts/battle_controller.gd:44)
+       [3] show_battle (res://scripts/main.gd:66)
+       [4] _on_node_selected (res://scripts/main.gd:91)
+       [5] <anonymous lambda> (res://scripts/map_controller.gd:59)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/protagonist_necromancer.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:209)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _ready (res://scripts/battle_controller.gd:46)
+       [5] show_battle (res://scripts/main.gd:66)
+       [6] _on_node_selected (res://scripts/main.gd:91)
+       [7] <anonymous lambda> (res://scripts/map_controller.gd:59)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/monster_01_skeleton_soldier.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:214)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _ready (res://scripts/battle_controller.gd:46)
+       [5] show_battle (res://scripts/main.gd:66)
+       [6] _on_node_selected (res://scripts/main.gd:91)
+       [7] <anonymous lambda> (res://scripts/map_controller.gd:59)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/protagonist_necromancer.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:209)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _select_enemy (res://scripts/battle_controller.gd:250)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:234)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/monster_01_skeleton_soldier.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:214)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _select_enemy (res://scripts/battle_controller.gd:250)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:234)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/protagonist_necromancer.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:209)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _select_enemy (res://scripts/battle_controller.gd:250)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:234)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/monster_01_skeleton_soldier.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:214)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _select_enemy (res://scripts/battle_controller.gd:250)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:234)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/protagonist_necromancer.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:209)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _select_enemy (res://scripts/battle_controller.gd:250)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:234)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/monster_01_skeleton_soldier.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:214)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _select_enemy (res://scripts/battle_controller.gd:250)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:234)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/protagonist_necromancer.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:209)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _play_card (res://scripts/battle_controller.gd:265)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:245)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/monster_01_skeleton_soldier.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:214)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _play_card (res://scripts/battle_controller.gd:265)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:245)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/protagonist_necromancer.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:209)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _play_card (res://scripts/battle_controller.gd:265)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:245)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/monster_01_skeleton_soldier.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:214)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _play_card (res://scripts/battle_controller.gd:265)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:245)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/protagonist_necromancer.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:209)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _play_card (res://scripts/battle_controller.gd:265)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:245)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/monster_01_skeleton_soldier.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:214)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _play_card (res://scripts/battle_controller.gd:265)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:245)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/protagonist_necromancer.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:209)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _select_enemy (res://scripts/battle_controller.gd:250)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:234)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/monster_01_skeleton_soldier.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:214)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _select_enemy (res://scripts/battle_controller.gd:250)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:234)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/protagonist_necromancer.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:209)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _end_player_turn (res://scripts/battle_controller.gd:375)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/monster_01_skeleton_soldier.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:214)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _end_player_turn (res://scripts/battle_controller.gd:375)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/protagonist_necromancer.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:209)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _play_card (res://scripts/battle_controller.gd:265)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:245)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/monster_01_skeleton_soldier.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:214)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _play_card (res://scripts/battle_controller.gd:265)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:245)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/protagonist_necromancer.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:209)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _select_enemy (res://scripts/battle_controller.gd:250)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:234)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/monster_01_skeleton_soldier.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:214)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _select_enemy (res://scripts/battle_controller.gd:250)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:234)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/protagonist_necromancer.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:209)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _play_card (res://scripts/battle_controller.gd:265)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:245)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/monster_01_skeleton_soldier.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:214)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _play_card (res://scripts/battle_controller.gd:265)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:245)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/protagonist_necromancer.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:209)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _play_card (res://scripts/battle_controller.gd:265)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:245)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/monster_01_skeleton_soldier.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:214)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _play_card (res://scripts/battle_controller.gd:265)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:245)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/protagonist_necromancer.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:209)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _end_player_turn (res://scripts/battle_controller.gd:375)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/monster_01_skeleton_soldier.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:214)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _end_player_turn (res://scripts/battle_controller.gd:375)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/protagonist_necromancer.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:209)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _play_card (res://scripts/battle_controller.gd:265)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:245)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/monster_01_skeleton_soldier.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:214)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _play_card (res://scripts/battle_controller.gd:265)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:245)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/protagonist_necromancer.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:209)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _select_enemy (res://scripts/battle_controller.gd:250)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:234)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/monster_01_skeleton_soldier.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:214)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _select_enemy (res://scripts/battle_controller.gd:250)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:234)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/protagonist_necromancer.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:209)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _play_card (res://scripts/battle_controller.gd:265)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:245)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/monster_01_skeleton_soldier.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:214)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _play_card (res://scripts/battle_controller.gd:265)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:245)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/protagonist_necromancer.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:209)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _play_card (res://scripts/battle_controller.gd:265)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:245)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/monster_01_skeleton_soldier.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:214)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _play_card (res://scripts/battle_controller.gd:265)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:245)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/protagonist_necromancer.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:209)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _end_player_turn (res://scripts/battle_controller.gd:375)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/monster_01_skeleton_soldier.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:214)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _end_player_turn (res://scripts/battle_controller.gd:375)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/protagonist_necromancer.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:209)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _play_card (res://scripts/battle_controller.gd:265)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:245)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/monster_01_skeleton_soldier.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:214)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _play_card (res://scripts/battle_controller.gd:265)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:245)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/monster_01_skeleton_soldier.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:214)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _play_card (res://scripts/battle_controller.gd:265)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:245)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/backgrounds/battle_background_maze_gate.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _build (res://scripts/battle_controller.gd:103)
+       [2] _ready (res://scripts/battle_controller.gd:44)
+       [3] show_battle (res://scripts/main.gd:66)
+       [4] _on_node_selected (res://scripts/main.gd:91)
+       [5] <anonymous lambda> (res://scripts/map_controller.gd:59)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/protagonist_necromancer.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:209)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _ready (res://scripts/battle_controller.gd:46)
+       [5] show_battle (res://scripts/main.gd:66)
+       [6] _on_node_selected (res://scripts/main.gd:91)
+       [7] <anonymous lambda> (res://scripts/map_controller.gd:59)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/monster_01_skeleton_soldier.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:214)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _ready (res://scripts/battle_controller.gd:46)
+       [5] show_battle (res://scripts/main.gd:66)
+       [6] _on_node_selected (res://scripts/main.gd:91)
+       [7] <anonymous lambda> (res://scripts/map_controller.gd:59)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/monster_01_skeleton_soldier.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:214)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _ready (res://scripts/battle_controller.gd:46)
+       [5] show_battle (res://scripts/main.gd:66)
+       [6] _on_node_selected (res://scripts/main.gd:91)
+       [7] <anonymous lambda> (res://scripts/map_controller.gd:59)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/protagonist_necromancer.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:209)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _play_card (res://scripts/battle_controller.gd:265)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:245)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/monster_01_skeleton_soldier.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:214)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _play_card (res://scripts/battle_controller.gd:265)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:245)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/monster_01_skeleton_soldier.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:214)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _play_card (res://scripts/battle_controller.gd:265)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:245)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/protagonist_necromancer.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:209)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _play_card (res://scripts/battle_controller.gd:265)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:245)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/monster_01_skeleton_soldier.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:214)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _play_card (res://scripts/battle_controller.gd:265)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:245)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/monster_01_skeleton_soldier.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:214)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _play_card (res://scripts/battle_controller.gd:265)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:245)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/protagonist_necromancer.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:209)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _end_player_turn (res://scripts/battle_controller.gd:375)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/monster_01_skeleton_soldier.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:214)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _end_player_turn (res://scripts/battle_controller.gd:375)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/monster_01_skeleton_soldier.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:214)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _end_player_turn (res://scripts/battle_controller.gd:375)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/protagonist_necromancer.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:209)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _play_card (res://scripts/battle_controller.gd:265)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:245)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/monster_01_skeleton_soldier.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:214)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _play_card (res://scripts/battle_controller.gd:265)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:245)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/monster_01_skeleton_soldier.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:214)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _play_card (res://scripts/battle_controller.gd:265)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:245)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/protagonist_necromancer.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:209)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _play_card (res://scripts/battle_controller.gd:265)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:245)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/monster_01_skeleton_soldier.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:214)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _play_card (res://scripts/battle_controller.gd:265)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:245)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/monster_01_skeleton_soldier.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:214)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _play_card (res://scripts/battle_controller.gd:265)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:245)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/protagonist_necromancer.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:209)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _end_player_turn (res://scripts/battle_controller.gd:375)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/monster_01_skeleton_soldier.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:214)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _end_player_turn (res://scripts/battle_controller.gd:375)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/monster_01_skeleton_soldier.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:214)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _end_player_turn (res://scripts/battle_controller.gd:375)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/protagonist_necromancer.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:209)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _play_card (res://scripts/battle_controller.gd:265)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:245)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/monster_01_skeleton_soldier.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:214)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _play_card (res://scripts/battle_controller.gd:265)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:245)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/monster_01_skeleton_soldier.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:214)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _play_card (res://scripts/battle_controller.gd:265)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:245)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/protagonist_necromancer.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:209)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _play_card (res://scripts/battle_controller.gd:265)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:245)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/monster_01_skeleton_soldier.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:214)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _play_card (res://scripts/battle_controller.gd:265)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:245)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/monster_01_skeleton_soldier.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:214)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _play_card (res://scripts/battle_controller.gd:265)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:245)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/protagonist_necromancer.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:209)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _play_card (res://scripts/battle_controller.gd:265)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:245)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/monster_01_skeleton_soldier.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:214)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _play_card (res://scripts/battle_controller.gd:265)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:245)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/monster_01_skeleton_soldier.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:214)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _play_card (res://scripts/battle_controller.gd:265)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:245)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/protagonist_necromancer.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:209)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _play_card (res://scripts/battle_controller.gd:265)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:245)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/monster_01_skeleton_soldier.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:214)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _play_card (res://scripts/battle_controller.gd:265)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:245)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/monster_01_skeleton_soldier.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:214)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _play_card (res://scripts/battle_controller.gd:265)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:245)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/protagonist_necromancer.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:209)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _play_card (res://scripts/battle_controller.gd:265)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:245)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/monster_01_skeleton_soldier.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:214)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _play_card (res://scripts/battle_controller.gd:265)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:245)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/monster_01_skeleton_soldier.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:214)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _play_card (res://scripts/battle_controller.gd:265)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:245)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/protagonist_necromancer.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:209)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _end_player_turn (res://scripts/battle_controller.gd:375)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/monster_01_skeleton_soldier.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:214)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _end_player_turn (res://scripts/battle_controller.gd:375)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/monster_01_skeleton_soldier.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:214)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _end_player_turn (res://scripts/battle_controller.gd:375)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/protagonist_necromancer.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:209)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _play_card (res://scripts/battle_controller.gd:265)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:245)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/monster_01_skeleton_soldier.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:214)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _play_card (res://scripts/battle_controller.gd:265)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:245)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/monster_01_skeleton_soldier.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:214)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _play_card (res://scripts/battle_controller.gd:265)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:245)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/protagonist_necromancer.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:209)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _play_card (res://scripts/battle_controller.gd:265)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:245)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/monster_01_skeleton_soldier.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:214)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _play_card (res://scripts/battle_controller.gd:265)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:245)
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/sprites/monster_01_skeleton_soldier.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+   at: load (core/io/image.cpp:2756)
+   GDScript backtrace (most recent call first):
+       [0] _texture_from_path (res://scripts/battle_controller.gd:655)
+       [1] _make_unit_panel (res://scripts/battle_controller.gd:637)
+       [2] _refresh_souls (res://scripts/battle_controller.gd:214)
+       [3] _refresh (res://scripts/battle_controller.gd:190)
+       [4] _play_card (res://scripts/battle_controller.gd:265)
+       [5] <anonymous lambda> (res://scripts/battle_controller.gd:245)

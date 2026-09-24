@@ -1,0 +1,69 @@
+[
+  {
+    "id": "soul_skeleton_soldier",
+    "name": "骷髅兵亡灵",
+    "role": "tank",
+    "hp": 58,
+    "soul_atk": 9,
+    "skills": [
+      {"id": "undead_slash", "name": "亡灵斩击", "damage": 9, "target": "enemy_single"},
+      {"id": "bone_cover", "name": "骨盾掩护", "block": 8, "target": "ally_lowest"}
+    ]
+  },
+  {
+    "id": "soul_skeleton_archer",
+    "name": "骷髅弓手亡灵",
+    "role": "ranged",
+    "hp": 42,
+    "soul_atk": 11,
+    "skills": [
+      {"id": "bone_arrow", "name": "骨箭援射", "damage": 11, "target": "enemy_single"},
+      {"id": "marked_shot", "name": "标魂箭", "damage": 8, "seal": 8, "target": "enemy_single"}
+    ]
+  },
+  {
+    "id": "soul_shadow_wraith",
+    "name": "幽魂亡灵",
+    "role": "magic_control",
+    "hp": 46,
+    "soul_atk": 12,
+    "skills": [
+      {"id": "wraith_touch", "name": "幽魂之触", "damage": 12, "damage_type": "magic", "target": "enemy_single"},
+      {"id": "fear_echo", "name": "恐惧回声", "damage": 6, "seal": 12, "target": "enemy_single"}
+    ]
+  },
+  {
+    "id": "soul_stitched_corpse",
+    "name": "缝合尸亡灵",
+    "role": "elite_wall",
+    "hp": 94,
+    "soul_atk": 14,
+    "skills": [
+      {"id": "corpse_crush", "name": "尸块重压", "damage": 14, "target": "enemy_single"},
+      {"id": "dead_meat_wall", "name": "死肉护墙", "block": 14, "target": "ally_all"}
+    ]
+  },
+  {
+    "id": "soul_bone_knight",
+    "name": "骸骨骑士亡灵",
+    "role": "elite_front",
+    "hp": 86,
+    "soul_atk": 17,
+    "skills": [
+      {"id": "bone_lance", "name": "亡灵骨枪", "damage": 17, "target": "enemy_single"},
+      {"id": "bone_guard", "name": "骸骨护卫", "block": 12, "target": "hero"}
+    ]
+  },
+  {
+    "id": "soul_crypt_lich",
+    "name": "墓穴巫妖亡灵",
+    "role": "boss_summoner",
+    "hp": 72,
+    "soul_atk": 15,
+    "skills": [
+      {"id": "lesser_bone_summon", "name": "弱化枯骨召令", "damage": 15, "seal": 10, "target": "enemy_single"},
+      {"id": "lich_spark", "name": "巫妖魂火", "damage": 9, "seal": 6, "target": "enemy_all"}
+    ],
+    "passive": "召唤物或亡灵击杀敌人时，主人公获得 1 个灵魂碎片。"
+  }
+]

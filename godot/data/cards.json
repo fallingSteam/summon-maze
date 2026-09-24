@@ -1,0 +1,124 @@
+[
+  {
+    "id": "slash",
+    "name": "暗影斩",
+    "type": "attack",
+    "cost": 1,
+    "target": "enemy_single",
+    "damage_type": "physical",
+    "damage": 18,
+    "seal": 0,
+    "short_text": "18物理。击杀魂印40+目标获得2碎片。"
+  },
+  {
+    "id": "bone_guard",
+    "name": "骨盾防御",
+    "type": "defense",
+    "cost": 1,
+    "target": "self",
+    "block": 16,
+    "bonus_block_if_enemy_seal_at_least": 70,
+    "bonus_block": 4,
+    "seal": 0,
+    "short_text": "16格挡。敌人魂印70+时额外+4。"
+  },
+  {
+    "id": "blood_pact",
+    "name": "鲜血契约",
+    "type": "resource",
+    "cost": 1,
+    "target": "self",
+    "hp_loss": 8,
+    "draw": 2,
+    "energy_gain": 1,
+    "bonus_draw_if_enemy_seal_at_least": 70,
+    "bonus_draw": 1,
+    "seal": 0,
+    "short_text": "失去8HP，抽2，能量+1。高魂印时抽3。"
+  },
+  {
+    "id": "soul_lash",
+    "name": "灵魂鞭笞",
+    "type": "seal_attack",
+    "cost": 1,
+    "target": "enemy_single",
+    "damage_type": "magic",
+    "damage": 24,
+    "seal": 28,
+    "mark_turns": 2,
+    "short_text": "24魔法，+28魂印，施加灵魂标记。"
+  },
+  {
+    "id": "soul_spark",
+    "name": "灵魂火花",
+    "type": "seal_attack",
+    "cost": 0,
+    "target": "enemy_single",
+    "damage_type": "magic",
+    "damage": 7,
+    "marked_damage": 13,
+    "seal": 10,
+    "marked_seal": 16,
+    "short_text": "7魔法+10魂印；标记目标变13伤害+16魂印。"
+  },
+  {
+    "id": "soul_chain",
+    "name": "魂链束缚",
+    "type": "seal_control",
+    "cost": 1,
+    "target": "enemy_single",
+    "damage": 0,
+    "seal": 22,
+    "enemy_attack_down": 0.25,
+    "vulnerable_if_seal_at_least": 70,
+    "short_text": "+22魂印，目标下次攻击-25%。"
+  },
+  {
+    "id": "death_decay",
+    "name": "死亡凋零",
+    "type": "seal_aoe",
+    "cost": 2,
+    "target": "enemy_all",
+    "damage_type": "magic",
+    "damage": 12,
+    "seal": 8,
+    "marked_bonus_seal": 4,
+    "short_text": "全体12魔法，全体+8魂印。"
+  },
+  {
+    "id": "undead_command",
+    "name": "亡灵号令",
+    "type": "soul_command",
+    "cost": 1,
+    "target": "enemy_single",
+    "seal": 12,
+    "max_soul_attacks": 2,
+    "short_text": "+12魂印，最多2名亡灵攻击。"
+  },
+  {
+    "id": "execution_rite",
+    "name": "处刑仪式",
+    "type": "execution",
+    "cost": 2,
+    "target": "enemy_single",
+    "damage_type": "physical",
+    "damage": 32,
+    "high_seal_damage": 43,
+    "high_seal_threshold": 70,
+    "seal": 10,
+    "extract_bonus_on_kill": 0.15,
+    "short_text": "+10魂印，32物理；魂印70+变43。"
+  },
+  {
+    "id": "arise",
+    "name": "Arise",
+    "type": "soul_burst",
+    "cost": 2,
+    "target": "enemy_all",
+    "seal": 8,
+    "soul_damage_multiplier": 1.45,
+    "fallback_summon": "temporary_skeleton",
+    "short_text": "全体+8魂印，亡灵强化攻击。"
+  }
+]
+

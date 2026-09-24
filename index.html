@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Summon Maze 战斗 Demo</title>
+  <link rel="stylesheet" href="web/styles.css">
+</head>
+<body>
+  <main class="game-shell">
+    <section class="battle-scene" aria-label="Summon Maze 战斗场景">
+      <div class="scene-shade"></div>
+
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">Summon Maze</p>
+          <h1 id="stageTitle">第一关：墓穴入口</h1>
+        </div>
+        <div class="top-actions">
+          <button class="icon-button" id="statsButton" type="button" title="打开角色属性">属性</button>
+          <button class="icon-button" id="restartButton" type="button" title="重新开始">重开</button>
+        </div>
+      </header>
+
+      <section class="battlefield">
+        <div class="side player-side">
+          <div class="unit hero" id="heroUnit">
+            <img src="游戏图/generated_cutouts/protagonist_necromancer.png" alt="主人公">
+            <div class="unit-shadow"></div>
+          </div>
+          <div class="nameplate hero-plate">
+            <strong>死灵召唤师</strong>
+            <div class="bar hp"><span id="heroHpBar"></span></div>
+            <div class="bar mp"><span id="heroMpBar"></span></div>
+            <small id="heroVitals">HP 150/150 · MP 100/100</small>
+          </div>
+        </div>
+
+        <div class="side enemy-side" id="enemySide"></div>
+      </section>
+
+      <section class="command-deck">
+        <div class="card-zone">
+          <div class="turn-strip">
+            <div class="energy-orb">
+              <span id="energyText">3/3</span>
+              <small>能量</small>
+            </div>
+            <div class="deck-info">
+              <span id="turnText">第 1 回合</span>
+              <small id="deckText">抽牌堆 8 · 弃牌堆 0</small>
+            </div>
+            <button class="end-turn" id="endTurnButton" type="button">结束回合</button>
+          </div>
+          <div class="hand" id="hand"></div>
+        </div>
+
+        <aside class="status-column">
+          <div class="target-box">
+            <span>当前目标</span>
+            <strong id="targetName">无</strong>
+            <small>点击敌人可切换目标</small>
+          </div>
+          <div class="soul-row" id="soulRow"></div>
+        </aside>
+      </section>
+
+      <section class="log-panel" id="battleLog" aria-live="polite"></section>
+    </section>
+  </main>
+
+  <dialog class="modal" id="statsModal">
+    <div class="modal-head">
+      <h2>角色属性</h2>
+      <button class="close-button" id="closeStats" type="button" title="关闭">×</button>
+    </div>
+    <div class="stats-grid" id="statsGrid"></div>
+    <h3>人物装备</h3>
+    <div class="equipment-list" id="equipmentList"></div>
+    <h3>亡灵军团</h3>
+    <div class="soul-list" id="soulList"></div>
+  </dialog>
+
+  <dialog class="modal extract-modal" id="extractModal">
+    <div class="modal-head">
+      <h2>提取灵魂</h2>
+    </div>
+    <div class="extract-body">
+      <img id="extractImage" alt="可提取的怪物">
+      <div>
+        <p id="extractText"></p>
+        <p class="chance" id="extractChance"></p>
+      </div>
+    </div>
+    <div class="modal-actions">
+      <button class="skill primary" id="confirmExtract" type="button">尝试提取</button>
+      <button class="skill" id="skipExtract" type="button">化为碎片</button>
+    </div>
+  </dialog>
+
+  <dialog class="modal result-modal" id="resultModal">
+    <h2 id="resultTitle">胜利</h2>
+    <p id="resultText"></p>
+    <div class="modal-actions">
+      <button class="skill primary" id="continueButton" type="button">继续</button>
+    </div>
+  </dialog>
+
+  <dialog class="modal loot-modal" id="lootModal">
+    <div class="modal-head">
+      <h2>获得装备</h2>
+    </div>
+    <div class="loot-body" id="lootBody"></div>
+    <div class="modal-actions">
+      <button class="skill primary" id="equipLootButton" type="button">装备</button>
+      <button class="skill" id="salvageLootButton" type="button">分解为碎片</button>
+    </div>
+  </dialog>
+
+  <script src="web/js/data/catalog.js"></script>
+  <script src="web/js/core/state.js"></script>
+  <script src="web/js/ui/dom.js"></script>
+  <script src="web/js/core/lifecycle.js"></script>
+  <script src="web/js/ui/render.js"></script>
+  <script src="web/js/core/combat.js"></script>
+  <script src="web/js/core/actions.js"></script>
+  <script src="web/js/ui/extraction.js"></script>
+  <script src="web/js/core/progression.js"></script>
+  <script src="web/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "soul_iron_sword",
+    "name": "魂铁长剑",
+    "slot": "weapon",
+    "rarity": "普通",
+    "stats": {"attack_bonus": 4},
+    "text": "物理仪式牌伤害 +4。"
+  },
+  {
+    "id": "grave_wand",
+    "name": "墓土短杖",
+    "slot": "weapon",
+    "rarity": "普通",
+    "stats": {"magic_bonus": 3},
+    "text": "魔法仪式牌伤害 +3。"
+  },
+  {
+    "id": "bone_plate",
+    "name": "骸骨胸甲",
+    "slot": "armor",
+    "rarity": "普通",
+    "stats": {"max_hp": 20, "def": 2},
+    "text": "最大生命 +20。"
+  },
+  {
+    "id": "mourning_cloak",
+    "name": "哀悼斗篷",
+    "slot": "armor",
+    "rarity": "精良",
+    "stats": {"max_hp": 10, "extract_bonus": 0.05},
+    "text": "最大生命 +10，提取成功率 +5%。"
+  },
+  {
+    "id": "soul_ring",
+    "name": "灵魂指环",
+    "slot": "trinket",
+    "rarity": "精良",
+    "stats": {"extract_bonus": 0.1},
+    "text": "提取成功率 +10%。"
+  },
+  {
+    "id": "broken_hourglass",
+    "name": "碎裂魂沙漏",
+    "slot": "trinket",
+    "rarity": "稀有",
+    "stats": {"magic_bonus": 2, "extract_bonus": 0.08},
+    "text": "魔法伤害 +2，提取成功率 +8%。"
+  }
+]

@@ -1,0 +1,145 @@
+{
+  "enemies": [
+    {
+      "id": "skeleton_soldier",
+      "name": "骷髅兵",
+      "role": "front_guard",
+      "hp": 78,
+      "atk": 13,
+      "def": 5,
+      "extract": 0.72,
+      "soul_id": "soul_skeleton_soldier",
+      "sprite": "res://assets/sprites/monster_01_skeleton_soldier.png",
+      "skills": [
+        {"id": "bone_slash", "name": "破骨斩", "intent": "攻击 13", "damage": 13, "hits": 1},
+        {"id": "raise_shield", "name": "举盾", "intent": "防御 12", "block": 12},
+        {"id": "shield_bash", "name": "盾击", "intent": "攻击 8 + 削弱", "damage": 8, "hits": 1, "weak": 1},
+        {"id": "death_guard", "name": "死守", "intent": "防御 8 + 护卫", "block": 8, "guard": 1}
+      ]
+    },
+    {
+      "id": "skeleton_archer",
+      "name": "骷髅弓手",
+      "role": "back_damage",
+      "hp": 62,
+      "atk": 15,
+      "def": 3,
+      "extract": 0.66,
+      "soul_id": "soul_skeleton_archer",
+      "sprite": "res://assets/sprites/monster_02_skeleton_archer.png",
+      "skills": [
+        {"id": "bone_arrow", "name": "骨箭射击", "intent": "攻击 15", "damage": 15, "hits": 1},
+        {"id": "aim", "name": "瞄准", "intent": "强化：下一击 +6", "self_power": 6},
+        {"id": "piercing_arrow", "name": "穿刺箭", "intent": "攻击 10 x2", "damage": 10, "hits": 2},
+        {"id": "soul_break_arrow", "name": "破魂箭", "intent": "攻击 9 + 魂印 -10", "damage": 9, "hits": 1, "seal_down": 10}
+      ]
+    },
+    {
+      "id": "shadow_wraith",
+      "name": "墓穴幽魂",
+      "role": "magic_control",
+      "hp": 70,
+      "atk": 14,
+      "def": 2,
+      "extract": 0.62,
+      "soul_id": "soul_shadow_wraith",
+      "sprite": "res://assets/sprites/monster_03_shadow_wraith.png",
+      "skills": [
+        {"id": "wraith_touch", "name": "幽魂之触", "intent": "穿透攻击 12", "damage": 12, "hits": 1, "pierce": 1},
+        {"id": "phase_dodge", "name": "灵体闪避", "intent": "防御 10 + 闪避", "block": 10, "dodge": 1},
+        {"id": "fear_whisper", "name": "恐惧低语", "intent": "控制：主人公失去 1 能量", "energy_down": 1},
+        {"id": "soul_leech", "name": "灵魂吸附", "intent": "攻击 8 + 回复 8", "damage": 8, "hits": 1, "heal": 8}
+      ]
+    },
+    {
+      "id": "stitched_corpse",
+      "name": "缝合尸",
+      "role": "elite_wall",
+      "hp": 150,
+      "atk": 18,
+      "def": 6,
+      "extract": 0.48,
+      "soul_id": "soul_stitched_corpse",
+      "sprite": "res://assets/sprites/monster_06_abyssal_tentacle_brute.png",
+      "skills": [
+        {"id": "meat_hook", "name": "腐肉拖拽", "intent": "攻击 16 + 削弱", "damage": 16, "hits": 1, "weak": 1},
+        {"id": "regrow", "name": "死肉再生", "intent": "回复 18 + 防御 8", "heal": 18, "block": 8},
+        {"id": "corpse_wall", "name": "尸墙", "intent": "防御 24 + 护卫", "block": 24, "guard": 1},
+        {"id": "crush", "name": "碾压", "intent": "攻击 12 x2", "damage": 12, "hits": 2}
+      ]
+    },
+    {
+      "id": "bone_knight",
+      "name": "骸骨骑士",
+      "role": "elite_front",
+      "hp": 138,
+      "atk": 23,
+      "def": 8,
+      "extract": 0.42,
+      "soul_id": "soul_bone_knight",
+      "sprite": "res://assets/sprites/monster_04_bone_knight.png",
+      "skills": [
+        {"id": "bone_lance_charge", "name": "骨枪冲锋", "intent": "攻击 23", "damage": 23, "hits": 1},
+        {"id": "bone_shield", "name": "骸骨护盾", "intent": "防御 22", "block": 22},
+        {"id": "knight_suppression", "name": "骑士压制", "intent": "攻击 16 + 下回合少抽 1", "damage": 16, "hits": 1, "draw_down": 1},
+        {"id": "death_charge", "name": "死亡冲阵", "intent": "攻击 13 x2 + 易伤", "damage": 13, "hits": 2, "vulnerable": 1}
+      ]
+    },
+    {
+      "id": "crypt_lich",
+      "name": "墓穴巫妖",
+      "role": "boss_summoner",
+      "hp": 230,
+      "atk": 22,
+      "def": 7,
+      "extract": 0.25,
+      "soul_id": "soul_crypt_lich",
+      "sprite": "res://assets/sprites/monster_bonus_lich.png",
+      "skills": [
+        {"id": "bone_summon", "name": "枯骨召令", "intent": "召唤骷髅兵", "summon": "skeleton_soldier"},
+        {"id": "soul_pulse", "name": "夺魂脉冲", "intent": "全体攻击 9 + 最高魂印 -15", "damage": 9, "hits": 1, "aoe": 1, "seal_down": 15},
+        {"id": "seal_silence", "name": "灵魂封缄", "intent": "控制：下一张魂印牌 -50%", "seal_card_down": 1},
+        {"id": "lich_veil", "name": "巫妖护幕", "intent": "防御 30 + 护卫召唤物", "block": 30, "guard": 1},
+        {"id": "crypt_finale", "name": "墓穴终响", "intent": "全体攻击 16", "damage": 16, "hits": 1, "aoe": 1}
+      ]
+    }
+  ],
+  "encounters": [
+    {
+      "id": "skeleton_patrol",
+      "name": "骷髅巡逻",
+      "type": "battle",
+      "enemy_ids": ["skeleton_soldier", "skeleton_archer"]
+    },
+    {
+      "id": "grave_ambush",
+      "name": "墓道伏击",
+      "type": "battle",
+      "enemy_ids": ["skeleton_soldier", "shadow_wraith"]
+    },
+    {
+      "id": "ossuary_watch",
+      "name": "藏骨堂守卫",
+      "type": "battle",
+      "enemy_ids": ["skeleton_soldier", "skeleton_soldier", "skeleton_archer"]
+    },
+    {
+      "id": "stitched_elite",
+      "name": "缝合尸",
+      "type": "elite",
+      "enemy_ids": ["stitched_corpse", "shadow_wraith"]
+    },
+    {
+      "id": "bone_knight_elite",
+      "name": "骸骨骑士",
+      "type": "elite",
+      "enemy_ids": ["bone_knight", "skeleton_soldier"]
+    },
+    {
+      "id": "lich_boss",
+      "name": "墓穴巫妖",
+      "type": "boss",
+      "enemy_ids": ["crypt_lich"]
+    }
+  ]
+}

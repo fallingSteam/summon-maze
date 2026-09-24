@@ -1,0 +1,9 @@
+[
+  {"id": "n1", "type": "battle", "name": "墓穴入口", "encounter": "skeleton_patrol"},
+  {"id": "n2", "type": "event", "name": "破碎墓室"},
+  {"id": "n3", "type": "battle", "name": "墓道伏击", "encounter": "grave_ambush"},
+  {"id": "n4", "type": "elite", "name": "缝合尸小boss", "encounter": "stitched_elite"},
+  {"id": "n5", "type": "rest", "name": "熄火祭坛"},
+  {"id": "n6", "type": "elite", "name": "骸骨骑士", "encounter": "bone_knight_elite"},
+  {"id": "n7", "type": "boss", "name": "墓穴巫妖", "encounter": "lich_boss"}
+]
